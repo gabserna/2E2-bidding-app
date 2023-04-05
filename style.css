@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+
+body {
+    background-color: #000;
+    margin-top: 3em;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2em;
+    font-family: "Heebo", sans-serif;
+    color: #00ff41;
+    width: 40%;
+    border: 4px solid #00ff41;
+    border-radius: 2vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h1, p, #bidList {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+input {
+    width: 12vw;
+}
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    width: 8em;
+    background-color: #00ff41;
+    color: #404040;
+    font-weight: bold;
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+#clearBtn {
+    margin: 0 auto;
+    width: 12vw;
+    height: 2.5vw;
+    background-color: #00ff41;
+    color: #404040;
+    font-size: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2vw;
+}
+
+.apostador1, .apostador2 {
+    margin: 0 auto;
+    width: 55%;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+}
